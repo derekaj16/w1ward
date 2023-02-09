@@ -17,7 +17,7 @@
         font-size: 16px;
     }
     header {
-        height: 100px;
+        height: 75px;
         box-sizing: border-box;
         margin-bottom: 50px;
     }
@@ -32,7 +32,7 @@
         font-family: BornReady;
         display: inline;
         position: absolute;
-        top: 85px;
+        top: 60px;
     }
     .fixed-header-text.first {
         left: 25px;
@@ -57,17 +57,17 @@
     #bee {
         width: 100px;
         left: 50%;
-        transform: translate(-50%, 47%);
+        transform: translate(-50%, 20%);
     }
     .beehive-container.first {
         height: 60px;
         left: -45px;
-        top: 32px;
+        top: 7px;
     }
     .beehive-container.second {
         height: 70px;
         right: -62px;
-        top: 22px;
+        top: 0px;
     }
     .beehive {
         width: 150px;
