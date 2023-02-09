@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "BornReady";
+    src: url("../assets/fonts/bornreadyupright.otf") format("opentype");
+}
+@font-face {
+    font-family: "Mistletoe";
+    src: url("../assets/fonts/mistletoesans.otf") format("opentype");
+}
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../assets/fonts/CenturyGothic.otf") format("opentype");
+}
+
+/* SMALL */
+@media screen and (max-width: 639px) {
+    p {
+        font-size: 16px;
+    }
+    header {
+        height: 100px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    .header-text {
+        display: none;
+    }
+    .fixed-header-text {
+        font-size: 2.8vw;
+        bottom: 0;
+        transform: translateY(20px);
+        z-index: 20;
+        font-family: BornReady;
+        display: inline;
+        position: absolute;
+        top: 85px;
+    }
+    .fixed-header-text.first {
+        left: 30px;
+        
+    }
+    .fixed-header-text.second {
+        right: 48px;
+    }
+    .content-heading {
+        font-family: Mistletoe;
+        margin-bottom: 30px;
+    }
+    .week {
+        font-size: 35px;
+    }
+    .date {
+        font-size: 20px;
+    }
+    .content {
+        max-width: 500px;
+    }
+    #bee {
+        width: 100px;
+        left: 50%;
+        transform: translate(-50%, 47%);
+    }
+    .beehive-container.first {
+        height: 60px;
+        left: -45px;
+        top: 32px;
+    }
+    .beehive-container.second {
+        height: 70px;
+        right: -62px;
+        top: 22px;
+    }
+    .beehive {
+        width: 150px;
+        position: relative;
+        top: 10px;
+    }
+    .beehive.first {
+        transform: rotate(32deg);
+    }
+    .beehive.second {
+        transform: rotate(-20deg);
+    }
+}
+
+/* MEDIUM */
+@media screen and (min-width: 640px) {
+    p {
+        font-size: 16px;
+    }
+    header {
+        height: 100px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    .header-text {
+        font-size: 2.5vw;
+    }
+    .header-text.first {
+        left: 50%;
+        transform: translateX(-140%);
+    }
+    .header-text.second {
+        left: 50%;
+        transform: translateX(50%);
+    }
+    .fixed-header-text {
+        display: none;
+    }
+    .content-heading {
+        font-family: Mistletoe;
+        margin-bottom: 30px;
+    }
+    .week {
+        font-size: 35px;
+    }
+    .date {
+        font-size: 20px;
+    }
+    .content {
+        max-width: 500px;
+    }
+    #bee {
+        width: 100px;
+        left: 50%;
+        transform: translate(-50%, 47%);
+    }
+    .beehive-container.first {
+        height: 60px;
+        left: -45px;
+        top: 32px;
+    }
+    .beehive-container.second {
+        height: 70px;
+        right: -62px;
+        top: 22px;
+    }
+    .beehive {
+        width: 150px;
+        position: relative;
+        top: 10px;
+    }
+    .beehive.first {
+        transform: rotate(32deg);
+    }
+    .beehive.second {
+        transform: rotate(-20deg);
+    }
+}
+
+/* LARGE */
+@media screen and (min-width: 811px) {
+    p {
+        font-size: 22px;
+    }
+    header {
+        height: 115px;
+        margin-bottom: 75px;
+    }
+    .header-text {
+        font-size: 2.5vw;
+    }
+    .header-text.first {
+        left: 50%;
+        transform: translateX(-140%);
+    }
+    .header-text.second {
+        left: 50%;
+        transform: translateX(50%);
+    }
+    .fixed-header-text {
+        display: none;
+    }
+    .content {
+        max-width: 700px;
+    }
+    .content-heading {
+        margin-bottom: 30px;
+    }
+    .week {
+        font-size: 50px;
+    }
+    .date {
+        font-size: 38px;
+    }
+    #bee {
+        width: 150px;
+        left: 50%;
+        transform: translate(-50%, 23%);
+    }
+    .beehive-container.first {
+        height: 74px;
+        left: -53px;
+        top: 33px;
+    }
+    .beehive-container.second {
+        height: 90px;
+        right: -75px;
+        top: 17px;
+    }
+    .beehive {
+        width: 200px;
+        position: relative;
+        top: 10px;
+    }
+    .beehive.first {
+        transform: rotate(32deg);
+    }
+    .beehive.second {
+        transform: rotate(-20deg);
+    }
+    
+}
+
+body {
+    font-family: 'Century Gothic';
+    width: 100vw;
+    
+}
+.content {
+    padding: 20px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    position: relative;
+    border-bottom: solid black 8px;
+    overflow-x: hidden;
+    
+}
+.header-text {
+    position: absolute;
+    bottom: 0;
+}
+#bee {
+    position: absolute;
+    z-index: 10;
+}
+.beehive-container {
+    position: absolute;
+    overflow: hidden;
+}
+.header-text {
+    font-family: BornReady;
+}
+p {
+    font-family: CenturyGothic;
+}
+.content-heading {
+    font-family: Mistletoe;
+}
