@@ -35,11 +35,11 @@
         top: 85px;
     }
     .fixed-header-text.first {
-        left: 30px;
+        left: 25px;
         
     }
     .fixed-header-text.second {
-        right: 48px;
+        right: 35px;
     }
     .content-heading {
         font-family: Mistletoe;
