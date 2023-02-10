@@ -248,3 +248,9 @@ p {
 .content-heading {
     font-family: Mistletoe;
 }
+a {
+    color: rgb(242, 201, 37);
+}
+a:hover {
+    color: rgb(237, 213, 115);
+}
