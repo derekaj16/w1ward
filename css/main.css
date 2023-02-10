@@ -254,3 +254,6 @@ a {
 a:hover {
     color: rgb(237, 213, 115);
 }
+iframe {
+    width: 100%;
+}
