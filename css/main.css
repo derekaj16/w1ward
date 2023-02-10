@@ -86,7 +86,7 @@
         margin-top: 25px;
     }
     iframe {
-        width: 350px;
+        width: 100%;
         height: 175px;
     }
 }
