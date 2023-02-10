@@ -80,6 +80,15 @@
     .beehive.second {
         transform: rotate(-20deg);
     }
+    .video {
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    iframe {
+        width: 450px;
+        height: 225px;
+    }
 }
 
 /* MEDIUM */
@@ -145,6 +154,15 @@
     .beehive.second {
         transform: rotate(-20deg);
     }
+    .video {
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    iframe {
+        width: 450px;
+        height: 225px;
+    }
 }
 
 /* LARGE */
@@ -208,6 +226,15 @@
     .beehive.second {
         transform: rotate(-20deg);
     }
+    .video {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    iframe {
+        width: 600px;
+        height: 300px;
+    }
     
 }
 
@@ -254,6 +281,4 @@ a {
 a:hover {
     color: rgb(237, 213, 115);
 }
-iframe {
-    width: 100%;
-}
+
