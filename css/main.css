@@ -53,6 +53,8 @@
     }
     .content {
         max-width: 500px;
+        padding: 20px;
+        margin: 0 auto 50px auto;
     }
     #bee {
         width: 100px;
@@ -127,6 +129,8 @@
     }
     .content {
         max-width: 500px;
+        padding: 20px;
+        margin: 0 auto 50px auto;
     }
     #bee {
         width: 100px;
@@ -190,6 +194,8 @@
     }
     .content {
         max-width: 700px;
+        padding: 20px;
+        margin: 0 auto 75px auto;
     }
     .content-heading {
         margin-bottom: 30px;
@@ -243,10 +249,6 @@ body {
     width: 100vw;
     
 }
-.content {
-    padding: 20px;
-    margin: 0 auto;
-}
 header {
     width: 100%;
     position: relative;
@@ -281,4 +283,3 @@ a {
 a:hover {
     color: rgb(237, 213, 115);
 }
-
