@@ -282,3 +282,64 @@ a {
 a:hover {
     color: rgb(237, 213, 115);
 }
+.list-icon {
+    cursor: pointer;
+}
+.shadow {
+    background-color: rgba(0,0,0,.35);
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    position: absolute;
+    display: none;
+}
+.list-container {
+    background-color: white;
+    max-width: 300px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 30;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 25px;
+    align-items: center;
+    font-family: CenturyGothic;
+}
+.week-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 25px;
+    text-align: left;
+}
+.week-list li {
+    padding: 0;
+    margin-bottom: 10px;
+}
+.week-list a {
+    text-decoration: none;
+    font-family: CenturyGothic;
+}
+#x {
+    color:rgb(242, 201, 37);
+}
+.exit {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    cursor: pointer;
+}
+.list-title {
+    margin-top: 30px;
+}
+.list-icon {
+    color: white;
+    margin-bottom: 25px;
+    background-color: rgb(242, 201, 37);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+
+}
