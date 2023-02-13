@@ -8,19 +8,19 @@
 
         setTimeout(function() {
             $('header').animate({'left': '0'}, 500);
-        }, 250)
+        }, 750)
         setTimeout(function() {
             $('.header-text').animate({
                 opacity: 1,
                 'margin-top': '-=25px'
             }, 500);
-        }, 750)
+        }, 1250)
         setTimeout(function() {
             $('#bee').fadeIn(1000).animate({
                 opacity: 1,
                 'margin-top': '-=25px'
               }, 500);
-        }, 1000);
+        }, 250);
         setTimeout(function() {
             $('.beehive-container.first').fadeIn(1000).animate({
                 opacity: 1,
