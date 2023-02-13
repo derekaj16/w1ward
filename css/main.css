@@ -254,7 +254,6 @@ header {
     position: relative;
     border-bottom: solid black 8px;
     overflow-x: hidden;
-    
 }
 .header-text {
     position: absolute;
