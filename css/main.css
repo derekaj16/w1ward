@@ -26,7 +26,6 @@
     }
     .fixed-header-text {
         font-size: 2.8vw;
-        bottom: 0;
         transform: translateY(20px);
         z-index: 20;
         font-family: BornReady;

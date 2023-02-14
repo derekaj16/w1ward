@@ -4,7 +4,8 @@
         $('.beehive-container').css({'margin-top': '+=25px', 'opacity': '0'});
         $('header').css({'left': '-100%'});
         $('.header-text').css({'opacity': '0', 'margin-top': '+=25px'});
-        $('.content').css({'margin-top': '+=25px', 'opacity': '0'})
+        $('.content').css({'margin-top': '+=25px', 'opacity': '0'});
+        $('.list-container').css({'left': '-100%'});
 
         setTimeout(function() {
             $('header').animate({'left': '0'}, 500);
@@ -41,4 +42,17 @@
         }, 1750);
         
     });
+    $('.list-icon').on('click', function() {
+        $('.list-container').animate({'left': '0%'}, 400);
+        $('.shadow').fadeIn('fast');
+    });
+    $('.shadow').on('click', function() {
+        $('.shadow').fadeOut('fast');
+        $('.list-container').animate({'left': '-100%'}, 500);
+    });
+    $('.exit').on('click', function() {
+        $('.shadow').fadeOut('fast');
+        $('.list-container').animate({'left': '-100%'}, 500);
+    })
+
 })(jQuery);
