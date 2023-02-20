@@ -10,7 +10,6 @@
             }, 500);
         }
         else {
-            console.log('else statement');
             sessionStorage.setItem('animated', 'true');
             $('#bee').css({'margin-top': '+=25px', 'opacity': '0'});
             $('.beehive-container').css({'margin-top': '+=25px', 'opacity': '0'});
