@@ -356,22 +356,27 @@ a:hover {
 }
 
 .home-container {
-    margin: 0 auto;
-    max-width: 400px;
+    /* margin: 0 auto;
+    max-width: 400px; */
+    width: 100%;
 }
 .home-menu {
-    /* max-width: 300px; */
-    /* width: 100vw; */
     list-style-type: none;
+    width: 100%;
     padding: 0;
-    margin: 0 auto;
-    font-family: CenturyGothic;
 }
 .home-menu li {
-    padding: 0;
-    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: CenturyGothic;
+    margin: 15px 0;
 }
 .home-menu a {
+    color: black;
+    background-color: rgb(237, 213, 115);
     text-decoration: none;
-    font-family: CenturyGothic;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 50px;
 }
