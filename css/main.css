@@ -346,13 +346,26 @@ a:hover {
     margin-top: 30px;
 }
 .list-icon {
-    color: white;
     margin-bottom: 25px;
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    background-color:rgb(237, 213, 115);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.list-icon p {
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.list-icon svg {
+    transform: scale(1.3);
+}
+.list-icon a {
+    color: black;
     background-color: rgb(242, 201, 37);
-    display: inline-block;
     padding: 10px;
-    border-radius: 50%;
-
 }
 
 .home-container {
