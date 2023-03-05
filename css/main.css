@@ -330,8 +330,9 @@ a:hover {
     margin-bottom: 10px;
 }
 .week-list a {
-    text-decoration: none;
+    text-decoration: underline;
     font-family: CenturyGothic;
+    color: black;
 }
 #x {
     color:rgb(242, 201, 37);
