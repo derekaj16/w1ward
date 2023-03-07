@@ -315,25 +315,31 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding: 25px;
     align-items: center;
     font-family: CenturyGothic;
 }
 .week-list {
+    width: 100% !important;
     list-style-type: none;
+    margin: 0;
     padding: 0;
-    margin: 25px;
-    text-align: left;
 }
 .week-list li {
-    padding: 0;
-    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
 }
-.week-list a {
-    text-decoration: underline;
-    font-family: CenturyGothic;
+.week-list li a {
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
     color: black;
+    transition: .25s;
 }
+.week-list li a:hover {
+    background-color:rgb(237, 213, 115);
+}
+
 #x {
     color:rgb(32, 31, 29);
 }
@@ -342,9 +348,13 @@ a:hover {
     justify-content: end;
     width: 100%;
     cursor: pointer;
+    margin: 30px 35px 0 0;
 }
 .list-title {
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    text-decoration: underline;
 }
 .list-icon {
     margin-bottom: 25px;
